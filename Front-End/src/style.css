@@ -1,0 +1,168 @@
+
+body {
+    background: #f0f2f5 !important;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.App {
+    margin-top: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Facebook-title img {
+    width: 60%;
+    margin-left: -27px;
+}
+
+.Facebook-title {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    justify-content: center;
+    margin-right: 5%;
+}
+
+.Facebook-title h5 {
+    font-size: 1.7em;
+}
+
+.form-container {
+    width: 30%;
+}
+
+.my-form {
+    background-color: white;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.125);
+    padding: 20px;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input-email {
+    height: 50px;
+    border: lightgray 1px solid;
+    border-radius: 7px;
+}
+
+.input-email:focus {
+    outline: none;
+    border:1px solid #1877f2;
+    box-shadow: 0 0 3px #719ECE;
+}
+
+.input-password {
+    height: 50px;
+    border: lightgray 1px solid;
+    border-radius: 7px;
+}
+.input-password:focus{
+    outline: none;
+    border:1px solid #1877f2;
+    box-shadow: 0 0 3px #719ECE;
+}
+
+.btn-login {
+    height: 50px;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.forgotten-password-container {
+    display: flex;
+    justify-content: center;
+}
+
+.forgotten-password-container a {
+    text-decoration: none;
+}
+
+.btn-create-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-create {
+    height: 50px;
+    width: 50%;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-weight: 700;
+}
+
+.create-page {
+    margin: 25px;
+    text-decoration: none;
+}
+
+.create-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .App {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Facebook-title img {
+       width: 100%;
+        margin-left: 1rem;
+    }
+
+    .Facebook-title {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Facebook-title h5 {
+        font-size: 1.1em;
+        margin-left: 2rem;
+    }
+
+    .form-container {
+        width: 92%;
+    }
+
+    .btn-create {
+        height: 50px;
+        width: 60%;
+        background-color: #42b72a;
+        border: none;
+        border-radius: 7px;
+        color: white;
+        font-weight: 700;
+    }
+
+    .create-page {
+        margin: 2.5rem;
+        text-decoration: none;
+        font-size: 0.7em;
+    }
+
+    .my-card{
+        margin-top: 1rem;
+
+    }
+}
